@@ -23,7 +23,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Rao Sarim Ali. I live in Pakistan, where I design the future.",
+		title: "I’m Rao Sarim Ali. I live in Lahore Pakistan, where I design the future.",
 		description:
 			"I've recently started working on various projects, and I'm excited about the progress I'm making. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I'm working on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a fantastic way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
