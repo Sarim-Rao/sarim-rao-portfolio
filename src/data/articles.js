@@ -1,16 +1,18 @@
 import React from "react";
+import recursiveFunctionImage from "../images/recursivefunctionpic.png";
+import colsure from "../images/colsure.png";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "27 May 2024",
+		title: "Important JavaScript Concepts to Know",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"JavaScript is a programming language that adds interactivity to your website. This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms with dynamic styling with animation, etc.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"The Benefits of javascript",
+			"sarim",
+			"sarim rao",
+			"javascript",
 		],
 		style: `
 				.article-content {
@@ -27,12 +29,47 @@ function article_1() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
+					<div className="paragraph">
+						<h1>Recursive Function</h1>
+
+						<p>
+							A recursive function is a function that calls itself
+							somewhere within the body of the function. It will
+							repeat calling itself until the desired output is
+							achieved.
+						</p>
+
+						<img
+							src={recursiveFunctionImage}
+							alt="random"
+							className="randImage"
+						/>
+					</div>
+
+					<div className="paragraph">
+						<h1>Closure</h1>
+
+						<p>
+							A closure gives you access to an outer function's
+							scope from an inner function. In JavaScript,
+							closures are created every time a function is
+							created, at function creation time.
+						</p>
+						<p>
+							A closure is closely related to lexical scope. It
+							occurs when a function “remembers” the variables
+							from its outer lexical scope, even after that outer
+							function has finished executing.
+						</p>
+						<h3>Lexical Scope</h3>
+						<p></p>
+
+						<img
+							src={colsure}
+							alt="colsure"
+							className="colsureImage"
+						/>
+					</div>
 				</div>
 			</React.Fragment>
 		),
