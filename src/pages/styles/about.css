@@ -32,6 +32,11 @@
 .about-title {
 	width: 100% !important;
 }
+@media screen and (max-width: 768px) {
+	.about-title {
+		font-size: 1.25rem !important;
+	}
+}
 
 .about-subtitle {
 	width: 80% !important;
