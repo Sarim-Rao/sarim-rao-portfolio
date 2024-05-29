@@ -15,29 +15,17 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
+								src="https://res.cloudinary.com/dl2jsgrdi/images/c_scale,w_216,h_105/f_auto,q_auto/v1704181980/mentorsol-logo/mentorsol-logo.png?_i=AA"
 								alt="facebook"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">MentorSol</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Frontend Developer
 							</div>
-							<div className="work-duration">2019 - Present</div>
 						</div>
 
-						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
-						</div>
+
 					</div>
 				}
 			/>

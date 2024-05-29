@@ -9,6 +9,13 @@
 	padding-bottom: 40px;
 	width: 400px;
 }
+@media screen and (max-width: 768px) {
+	.work {
+		display: flex;
+		padding-bottom: 40px;
+		width: 100%;
+	}
+}
 
 .work-image {
 	height: 30px;
