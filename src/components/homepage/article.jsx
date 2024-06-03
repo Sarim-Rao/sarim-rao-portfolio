@@ -12,7 +12,9 @@ const Article = (props) => {
 	return (
 		<React.Fragment>
 			<div className="homepage-article">
-				<div className="homepage-article-content">
+				<div className="homepage-article-content"
+					data-aos="fade-up-right"
+				>
 					<div className="homepage-article-date">
 						|&nbsp;&nbsp;&nbsp;{date}
 					</div>

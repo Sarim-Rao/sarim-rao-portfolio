@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import AOS from "aos"
+import "aos/dist/aos.css";
 
 import Card from "../common/card";
 
 import "./styles/works.css";
 
 const Works = () => {
+
+	useEffect(() => {
+		AOS.init();
+	}, []);
+
 	return (
-		<div className="works">
+		<div className="works"
+			data-aos="fade-up"
+			data-aos-anchor-placement="bottom-center"
+		>
 			<Card
 				icon={faBriefcase}
 				title="Work"

@@ -87,7 +87,9 @@ const Homepage = () => {
 					</div>
 
 					<div className="homepage-container">
-						<div className="homepage-first-area">
+						<div className="homepage-first-area"
+							data-aos="fade-up-left"
+						>
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
 									{INFO.homepage.title}

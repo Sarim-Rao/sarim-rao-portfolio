@@ -52,6 +52,10 @@ const Articles = () => {
 									<div
 										className="articles-article"
 										key={(index + 1).toString()}
+										data-aos="fade-left"
+										data-aos-anchor="#example-anchor"
+										data-aos-offset="1000"
+										data-aos-duration="1000"
 									>
 										<Article
 											key={(index + 1).toString()}
