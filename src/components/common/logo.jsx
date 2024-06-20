@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SarimImage from "../../images/selfImage.jpg"
+import SarimImage from "../../images/selfImage.jpg";
 import "./styles/logo.css";
 
-const Logo = (props) => {
-	let { width, link } = props;
-
+const Logo = ({ width, link }) => {
 	if (link === undefined) {
 		link = true;
 	}

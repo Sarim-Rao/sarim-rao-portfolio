@@ -3,8 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./styles/card.css";
 
-const Card = (props) => {
-	const { icon, title, body } = props;
+const Card = ({ icon, title, body }) => {
 	return (
 		<div className="card">
 			<div className="card-container">

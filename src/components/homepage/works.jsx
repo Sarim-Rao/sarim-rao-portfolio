@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos"
 import "aos/dist/aos.css";
-
 import Card from "../common/card";
 
 import "./styles/works.css";

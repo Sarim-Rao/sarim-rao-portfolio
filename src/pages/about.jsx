@@ -5,7 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-import SarimImage from "../images/selfImage.jpg"
+import SarimImage from "../images/selfImage.jpg";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -40,9 +40,7 @@ const About = () => {
 
 					<div className="about-container">
 						<div className="about-main">
-							<div className="about-right-side"
-								data-aos="flip-left"
-							>
+							<div className="about-right-side">
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
@@ -52,11 +50,7 @@ const About = () => {
 								</div>
 							</div>
 
-							<div className="about-left-side"
-								data-aos="flip-left"
-								data-aos-easing="ease-out-cubic"
-								data-aos-duration="3000"
-							>
+							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
