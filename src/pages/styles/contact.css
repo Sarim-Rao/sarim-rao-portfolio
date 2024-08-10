@@ -27,12 +27,24 @@
 
 .socials-container {
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
 	margin-top: 80px;
 }
+@media (max-width:768px){
+	.socials-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}	
 
-.contact-socials {
+}
+
+.email-form{
+	width: 400px;
+	max-width: 400px;
 	display: flex;
+	flex-direction: column;
 	justify-content: flex-start;
-	align-items: center;
+	gap: 8px;
 }

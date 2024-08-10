@@ -3,13 +3,14 @@
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
+		"name": "Rao Sarim Ali",
+		"email": "sarimrana819@gmail.com",
 		"url": "https://tharindu.dev"
 	},
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
+		"@formspree/react": "^2.5.1",
 		"@fortawesome/fontawesome-svg-core": "^6.4.0",
 		"@fortawesome/free-brands-svg-icons": "^6.4.0",
 		"@fortawesome/free-regular-svg-icons": "^6.4.0",
@@ -25,8 +26,10 @@
 		"react-helmet": "^6.1.0",
 		"react-router-dom": "^6.11.1",
 		"react-scripts": "5.0.1",
+		"react-toastify": "^10.0.5",
 		"styled-components": "^5.3.10",
-		"web-vitals": "^2.1.4"
+		"web-vitals": "^2.1.4",
+		"yup": "^1.4.0"
 	},
 	"scripts": {
 		"start": "react-scripts start",
@@ -55,5 +58,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.4.9"
 	}
 }

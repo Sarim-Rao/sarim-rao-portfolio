@@ -1,3 +1,8 @@
+import shoppingBuzLogo from "../images/shoppingBuz.png"
+import portfolioLogo from "../images/selfImage.jpg"
+import bookStore from "../images/bookStore.jpg"
+import nftLogo from "../images/nftLogo.png"
+
 const INFO = {
 	main: {
 		title: "Reactfolio by Rao Sarim Ali",
@@ -36,48 +41,56 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "shopping-buzz",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"It is like a shopping application. I creatd this project using ReactJS and other react libraries like redux Toolkit.",
+			logo: shoppingBuzLogo,
+			linkText: "View Project",
+			link: "https://github.com/Sarim-Rao/shopping-buzz",
+		},
+
+		{
+			title: "sarim-rao-portfolio",
+			description:
+				"Its my portfolio repo that you are visiting it is also created on reactJS.",
+			logo: portfolioLogo,
+			linkText: "View Project",
+			link: "https://github.com/Sarim-Rao/sarim-rao-portfolio",
+		},
+
+		{
+			title: "Book-Store ",
+			description:
+				"It is based on Javascript a book store.",
+			logo: bookStore,
+			linkText: "View Project",
+			link: "https://github.com/Sarim-Rao/Book-Store",
+		},
+
+		{
+			title: "nft-marketplace",
+			description:
+				"This is about nft marketplace i created this on reactJS",
+			logo: nftLogo,
+			linkText: "View Project",
+			link: "https://github.com/Sarim-Rao",
+		},
+
+		{
+			title: "Boldo-Project",
+			description:
+				"I creatd this project using ReactJS and react-router-Dom also",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com/Sarim-Rao",
+			link: "https://github.com/Sarim-Rao/Boldo-Project",
 		},
-
 		{
-			title: "Project 2",
+			title: "Generix-Page",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/Sarim-Rao",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com/Sarim-Rao",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"I creatd this project using ReactJS and react-router-Dom also",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com/Sarim-Rao",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com/Sarim-Rao",
+			link: "https://github.com/Sarim-Rao/Boldo-Project",
 		},
 	],
 };

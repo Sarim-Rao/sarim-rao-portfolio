@@ -28,7 +28,7 @@
 
 .nav-list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	list-style: none;
 	align-items: center;
 	margin-left: -16px;
