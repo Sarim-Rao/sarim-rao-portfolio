@@ -4,6 +4,7 @@ import "./styles/footer.css";
 import { FooterLinksData } from "../../Utils/Constants";
 
 const Footer = () => {
+	let currentYear= new Date().getFullYear(); 
 	return (
 		<React.Fragment>
 			<div className="footer">
@@ -19,7 +20,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						&copy; 2024 Rao Sarim Ali. All Rights Reserved.
+						&copy; {currentYear} Rao Sarim Ali. All Rights Reserved.
 					</div>
 				</div>
 			</div>
