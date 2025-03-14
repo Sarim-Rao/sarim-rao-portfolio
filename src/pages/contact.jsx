@@ -11,6 +11,7 @@ import { toast } from "react-toastify";
 import * as yup from "yup";
 
 import "./styles/contact.css";
+import LinkedInBadge from "../components/common/LinkedInBadge";
 
 // Define validation schema with Yup
 const validationSchema = yup.object().shape({
@@ -93,8 +94,11 @@ const Contact = () => {
           </div>
 
           <div className="contact-container">
+            <div className="contact-title-container">
             <div className="title contact-title">
               Let's Get in Touch: Ways to Connect with Me
+            </div>
+            <LinkedInBadge />
             </div>
 
             <div className="subtitle contact-subtitle">
@@ -131,7 +135,6 @@ const Contact = () => {
             <div className="contact-socials">
               <Socials />
             </div>
-
             <form onSubmit={handleSubmit} className="email-form">
               <div className="relative z-0 w-full mb-5 group">
                 <input
