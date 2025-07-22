@@ -24,7 +24,7 @@ const INFO = {
 	homepage: {
 		title: "Software Engineer || Frontend Web Developer",
 		description:
-			"I am a frontend developer with expertise in React.js. I have experience in building responsive, user-friendly, and visually appealing web applications using various frameworks and technologies. My skills include HTML, CSS, SCSS, Tailwind, ShadCN, JavaScript, and Bootstrap. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a Frontend Developer with 2 years of experience, specializing in React.js. I have a strong background in building responsive, user-friendly, and visually appealing web applications using modern frameworks and technologies. My skill set includes HTML, CSS, SCSS, Tailwind CSS, ShadCN, JavaScript, and Bootstrap.I enjoy solving complex problems and continuously expanding my knowledge. I am passionate about writing clean, high-quality code that follows best practices and industry standards. I'm always eager to take on new challenges and grow as a developer.",
 	},
 
 	about: {
